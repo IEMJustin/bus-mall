@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+<html>
 <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BusMall</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
@@ -9,22 +13,38 @@
 </head>
 
 <body>
+    <header>BussMall</header>
     <main>
-    <marquee>That moment when you find out what marquee does XD 
-        <img src="https://previews.123rf.com/images/profshop/profshop1611/profshop161100014/67808755-vector-lol-happy-guy-meme-face-for-any-design-isolated-eps-10.jpg"
-        height="200px" />
-    </marquee>
+        <h1>"Our products be bussin"</h1>
+        <br>
+        <h2>Please select between the 3 products list below, you will be able to select 25 times</h2>
+        <br>
 
-    <section>
-        <img id="1" src="img/bag.jpg" />
-        <img id="2" src="img/banana.jpg"/>
-        <img id="3" src="img/bathroom.jpg"/>
-    </section>
+    
+        <section id="listedProducts">
+            <p id="rounds"></p>
+            <div id="left-side"> 
+              <img id="left-side-img" src="" alt="">
+            </div>
+            <div id="center">
+                <img id="center-img" src="" alt="">
+            </div>
+            <div id="right-side">
+              <img id="right-side-img" src="" alt="">
+            </div>
+          </section>
+          <section>
+            <p id="finalReport"></p>
+            <ul id="report">
+            </ul>
+          </section>
     </main>
 
-    <footer>
-        Pick your poison
-        <ul id="bussMallResults"></ul>
+    <section id="list"></section>
+
+    <footer>*Disclaimer*<br>
+        NO DRAGONS OR UNICORNS WERE HURT IN THE PROCESS
     </footer>
     <script src="app.js"></script>
 </body>
+</html>
