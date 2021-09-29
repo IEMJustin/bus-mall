@@ -47,6 +47,7 @@ button {
 }
 footer.OrderFooter {
     background-color: cyan;
+    height: 100%;
 }
 div.mainPageButton {
     text-align: center;

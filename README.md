@@ -9,3 +9,8 @@ ALOT OF YOUTUBE TUTORIALS
 
 Stack OverFlow
 - For reminder on how to make link through button
+
+Followed Jacob's demo
+- Understood how to apply but I need more practice before I can do it consistently without looking for a reminding reference on how to complete.
+
+https://IEMJustin.github.io/bus-mall/
