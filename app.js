@@ -56,21 +56,21 @@ randomImage();
 numberRounds++;
 rounds.textContent = ('Round :' + numberRounds);
 imagesSection.addEventListener('click', clicks);
-function clicks(e) {
-  if (e.target.id === 'left-side-img') {
+function clicks(i) {
+  if (i.target.id === 'left-side-img') {
     leftImageRandom.numberClicks++;
     totalClicks++,
     randomImage();
     numberRounds++;
   }
 
-  if (e.target.id === 'center-img') {
+  if (i.target.id === 'center-img') {
     centerImageRandom.numberClicks++;
     totalClicks++;
     randomImage();
     numberRounds++;
   }
-  if (e.target.id === 'right-side-img') {
+  if (i.target.id === 'right-side-img') {
     rightImageRandom.numberClicks++;
     totalClicks++;
     randomImage();
@@ -90,11 +90,11 @@ function clicks(e) {
     let finalReport = document.getElementById('finalReport');
     finalReport.textContent = 'You are all out of votes, results are listed below :';
     let report = document.getElementById('report');
-    for (let j =0; j< products.length; j++){
-      let reportList = document.createElement('li');
-      reportList.textContent = `${products[j].imageName} was voted ${products[j].numberClicks} times and has been seen ${products[j].numberViews} times`;
-      report.appendChild(reportList);
-    }
+   for (let j =0; j< products.length; j++){
+   let reportList = document.createElement('li');
+   reportList.textContent = `${products[j].imageName} was voted ${products[j].numberClicks} times and has been seen ${products[j].numberViews} times`;
+   report.appendChild(reportList);
+ }
     renderChart();
   }
 }
