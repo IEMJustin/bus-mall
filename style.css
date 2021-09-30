@@ -35,3 +35,21 @@ h2 {
     text-align: center;
     font-size: 30px;
 }
+button.clickme {
+    text-align: center;
+}
+body.OrderFormList {
+    font-size: 20px;
+}
+button {
+    font-size: 20px;
+    padding: px;
+}
+footer.OrderFooter {
+    background-color: cyan;
+    height: 100%;
+}
+div.mainPageButton {
+    text-align: center;
+    background-color: cyan;
+}
